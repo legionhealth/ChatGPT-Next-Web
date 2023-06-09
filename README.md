@@ -7,11 +7,11 @@ English / [简体中文](./README_CN.md)
 
 One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
-一键免费部署你的私人 ChatGPT 网页应用。
+Deploy your private ChatGPT web application for free with one click.
 
 [Demo](https://chatgpt.nextweb.fun/) / [Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
-[演示](https://chatgpt.nextweb.fun/) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[Demo](https://chatgpt.nextweb.fun/) / [Feedback](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ Group](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [Support Developer](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
@@ -53,39 +53,39 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 - 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
 - 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
 
-## 主要功能
+## Main Features
 
-- 在 1 分钟内使用 Vercel **免费一键部署**
-- 完整的 Markdown 支持：LaTex 公式、Mermaid 流程图、代码高亮等等
-- 精心设计的 UI，响应式设计，支持深色模式，支持 PWA
-- 极快的首屏加载速度（~100kb），支持流式响应
-- 隐私安全，所有数据保存在用户浏览器本地
-- 预制角色功能（面具），方便地创建、分享和调试你的个性化对话
-- 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
-- 自动压缩上下文聊天记录，在节省 Token 的同时支持超长对话
-- 多国语言支持：English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština
-- 拥有自己的域名？好上加好，绑定后即可在任何地方**无障碍**快速访问
+- Deploy for free with one click on Vercel within 1 minute
+- Complete Markdown support: LaTex formulas, Mermaid flowcharts, code highlighting, etc.
+- Well-designed UI, responsive design, supports dark mode, and PWA
+- Extremely fast first screen loading speed (~100kb), supports streaming response
+- Privacy and security, all data is saved locally in the user's browser
+- Preset role function (mask), easily create, share, and debug your personalized conversations
+- Massive built-in prompt list, from [Chinese](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [English](https://github.com/f/awesome-chatgpt-prompts)
+- Automatically compresses chat history to save tokens while supporting long conversations
+- Multilingual support: English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština
+- Have your own domain? Even better, bind it and access it quickly and without barriers anywhere
 
-## 开发计划
+## Development Plan
 
-- [x] 为每个对话设置系统 Prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
-- [x] 允许用户自行编辑内置 Prompt 列表
-- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
-- [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
-- [ ] 使用 tauri 打包桌面应用
-- [ ] 支持自部署的大语言模型
-- [ ] 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+- [x] Set system Prompt for each conversation [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] Allow users to edit the built-in Prompt list
+- [x] Preset roles: Quickly customize new conversations with preset roles [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] Share as image, share to ShareGPT link [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
+- [ ] Package desktop application with tauri
+- [ ] Support self-deployed large language models
+- [ ] Plugin mechanism, support network search, calculator, call other platform apis [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
 
-### 不会开发的功能
+### Features Not to Be Developed
 
-- 界面文字自定义
-- 用户登录、账号管理、消息云同步
+- Customizable interface text
+- User login, account management, message cloud synchronization
 
-## 最新动态
+## Latest News
 
-- 🚀 v2.0 已经发布，现在你可以使用面具功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
-- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
-- 🚀 v2.7 现在可以将会话分享为图片了，也可以分享到 ShareGPT 的在线链接。
+- 🚀 v2.0 has been released, now you can use the mask function to quickly create preset conversations! Learn more: [ChatGPT Advanced Prompt Skills: Zero, One, and Few Sample Prompts](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138).
+- 💡 Want to use this project more conveniently anytime, anywhere? Try this desktop plugin: https://github.com/mushan0x0/AI0x0.com
+- 🚀 v2.7 Now you can share conversations as images, or share them to ShareGPT's online links.
 
 ## Get Started
 
@@ -245,7 +245,7 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 ### Sponsor
 
-> 仅列出捐赠金额 >= 100RMB 的用户。
+> Only users with a donation amount >= 100RMB are listed.
 
 [@mushan0x0](https://github.com/mushan0x0)
 [@ClarenceDan](https://github.com/ClarenceDan)
